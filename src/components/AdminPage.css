@@ -1,0 +1,254 @@
+.admin-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.admin-header h1 {
+  color: #2c3e50;
+  margin: 0;
+}
+
+.admin-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.home-button,
+.change-password-button,
+.logout-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.home-button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+.change-password-button {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.change-password-button:hover {
+  background-color: #1e88e5;
+  transform: translateY(-2px);
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+  transform: translateY(-2px);
+}
+
+.royalties-list,
+.reservations-list {
+  margin-bottom: 30px;
+  overflow-x: auto;
+}
+
+.royalties-list table,
+.reservations-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.royalties-list th,
+.royalties-list td,
+.reservations-list th,
+.reservations-list td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.royalties-list th,
+.reservations-list th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+
+.royalties-list tr:hover,
+.reservations-list tr:hover {
+  background-color: #f5f5f5;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+  font-weight: bold;
+}
+
+.filter-buttons button.active {
+  background-color: #e44d26;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.design-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.design-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.design-card:hover {
+  transform: translateY(-5px);
+}
+
+.design-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.design-info {
+  padding: 15px;
+}
+
+.design-info h3 {
+  margin: 0 0 10px;
+  color: #2c3e50;
+}
+
+.design-info p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.design-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #f8f8f8;
+}
+
+.edit-button,
+.delete-button,
+.approve-button,
+.download-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.edit-button {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.approve-button {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.download-button {
+  background-color: #FF9800;
+  color: #fff;
+}
+
+.edit-button:hover,
+.delete-button:hover,
+.approve-button:hover,
+.download-button:hover {
+  transform: translateY(-2px);
+}
+
+.reservations-list button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s;
+}
+
+.reservations-list button:hover {
+  opacity: 0.8;
+}
+
+.status-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.status-button.paid {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.status-button.pending {
+  background-color: #FFC107;
+  color: black;
+}
+
+.status-button.sent {
+  background-color: #2196F3;
+  color: white;
+}
+
+.status-button.not-sent {
+  background-color: #F44336;
+  color: white;
+}

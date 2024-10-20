@@ -1,0 +1,20 @@
+/* 既存のスタイルはそのままで、以下を追加 */
+
+nav ul li button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: inherit;
+  font-weight: bold;
+  padding: 0;
+  text-decoration: underline;
+}
+
+nav ul li button:hover {
+  color: #e44d26;
+}
+
+nav ul li span {
+  color: #fff;
+}

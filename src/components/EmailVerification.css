@@ -1,0 +1,57 @@
+.email-verification {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.email-verification h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.email-verification p {
+  margin-bottom: 20px;
+}
+
+.email-verification form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-verification form > div {
+  margin-bottom: 15px;
+}
+
+.email-verification label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.email-verification input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.email-verification button {
+  padding: 10px;
+  background-color: #e44d26;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.email-verification button:hover {
+  background-color: #d13b1e;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
